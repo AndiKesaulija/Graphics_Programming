@@ -118,6 +118,8 @@ namespace Graphics_programming
 		private Effect myEffect;
 		private Texture2D boxTexture, boxNormal;
 		Vector3 LightPosition = Vector3.Right * 2 + Vector3.Up * 2 + Vector3.Backward * 2;
+		Vector3 AmbientPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
+
 
 		public override void LoadContent(ContentManager Content, GraphicsDeviceManager graphics, SpriteBatch spriteBatch)
 		{
@@ -152,6 +154,7 @@ namespace Graphics_programming
 
 
 			myEffect.Parameters["LightPosition"].SetValue(LightPosition);
+			myEffect.Parameters["AmbientPosition"].SetValue(AmbientPosition);
 
 			myEffect.CurrentTechnique.Passes[0].Apply();//effect.CurrentTechnique.Passes[0].Apply();
 

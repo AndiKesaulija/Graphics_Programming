@@ -11,6 +11,7 @@ float4x4 World, View, Projection;
 
 
 float3 LightPosition;
+float3 AmbientPosition;
 
 Texture2D MainTex;
 sampler2D MainTextureSampler = sampler_state
@@ -64,11 +65,13 @@ float4 MainPS(VertexShaderOutput input) : COLOR
     perturbedNormal = normalize(perturbedNormal);
 
     float3 lightDirection = normalize(input.worldPos - LightPosition);
+    float3 AmbientDirection = normalize(input.worldPos - AmbientPosition);
 
     //float light = max(dot(input.worldNormal, -lightDirection), 0.0);//diffuse
     float light = max(dot(perturbedNormal, -lightDirection), 0.0);//normal
+    float ambient = max(dot(perturbedNormal, -AmbientDirection), 0.0);
 
-    return float4(light * texColor.rgb,1);
+    return float4((light + (ambient/4)) * texColor.rgb,1);
 }
 
 technique
