@@ -43,7 +43,9 @@ D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\De
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.dll
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.pdb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.genruntimeconfig.cache
-D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.csprojAssemblyReference.cache
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\Lesson2.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\BoxImg.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\NormalMap.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\SpecularMap.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.csprojAssemblyReference.cache
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\SpecularMap2.xnb

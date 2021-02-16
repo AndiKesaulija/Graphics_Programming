@@ -7,8 +7,12 @@
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/BoxImg.png</File>
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/Lesson2.fx</File>
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/NormalMap.png</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/SpecularMap.png</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/SpecularMap2.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

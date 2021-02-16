@@ -116,9 +116,10 @@ namespace Graphics_programming
 		//private BasicEffect effect;
 		
 		private Effect myEffect;
-		private Texture2D boxTexture, boxNormal;
-		Vector3 LightPosition = Vector3.Right * 2 + Vector3.Up * 2 + Vector3.Backward * 2;
+		private Texture2D boxTexture, boxNormal, boxSpecular;
+		Vector3 LightPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
 		Vector3 AmbientPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
+		Vector3 CameraPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
 
 
 		public override void LoadContent(ContentManager Content, GraphicsDeviceManager graphics, SpriteBatch spriteBatch)
@@ -128,7 +129,7 @@ namespace Graphics_programming
 			myEffect = Content.Load<Effect>("Lesson2");//load .fx File
 			boxTexture = Content.Load<Texture2D>("BoxImg");
 			boxNormal = Content.Load<Texture2D>("NormalMap");
-
+			boxSpecular = Content.Load<Texture2D>("SpecularMap2");
 		}
 
 		public override void Draw(GameTime gameTime, GraphicsDeviceManager graphics, SpriteBatch spriteBatch)
@@ -151,10 +152,12 @@ namespace Graphics_programming
 
 			myEffect.Parameters["MainTex"].SetValue(boxTexture);
 			myEffect.Parameters["NormalTex"].SetValue(boxNormal);
-
+			myEffect.Parameters["SpecularTex"].SetValue(boxSpecular);
 
 			myEffect.Parameters["LightPosition"].SetValue(LightPosition);
 			myEffect.Parameters["AmbientPosition"].SetValue(AmbientPosition);
+			myEffect.Parameters["CameraPosition"].SetValue(CameraPosition);
+
 
 			myEffect.CurrentTechnique.Passes[0].Apply();//effect.CurrentTechnique.Passes[0].Apply();
 

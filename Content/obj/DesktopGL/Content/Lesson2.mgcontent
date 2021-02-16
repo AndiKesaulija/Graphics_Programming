@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/Lesson2.fx</SourceFile>
-  <SourceTime>2021-02-16T10:24:43.3916801+01:00</SourceTime>
+  <SourceTime>2021-02-16T15:56:52.7590594+01:00</SourceTime>
   <DestFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/bin/DesktopGL/Content/Lesson2.xnb</DestFile>
-  <DestTime>2021-02-16T10:24:46.2738775+01:00</DestTime>
+  <DestTime>2021-02-16T15:56:55.1675772+01:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>EffectProcessor</Processor>
