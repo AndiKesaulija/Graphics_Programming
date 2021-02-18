@@ -57,5 +57,4 @@ D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\De
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\day.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\night.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\uv_sphere.xnb
-D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.csprojAssemblyReference.cache
 >>>>>>> Stashed changes
