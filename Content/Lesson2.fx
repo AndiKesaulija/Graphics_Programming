@@ -65,10 +65,33 @@ float4 MainPS(VertexShaderOutput input) : COLOR
 
     float3 lightDirection = normalize(input.worldPos - LightPosition);
 
-    //float light = max(dot(input.worldNormal, -lightDirection), 0.0);//diffuse
     float light = max(dot(perturbedNormal, -lightDirection), 0.0);//normal
+<<<<<<< Updated upstream
 
     return float4(light * texColor.rgb,1);
+=======
+    float ambient = max(dot(perturbedNormal, -AmbientDirection), 0.0);
+
+    //SpecularSettings
+    float powStrength = 15;
+    float ambientStrengh = 3;
+    //SpecularMap
+    float3 perturbedSpecular = input.worldNormal;
+    perturbedSpecular.rgb += specularColor.rgb;
+    perturbedSpecular = normalize(perturbedSpecular);
+
+    //Specular
+    float3 viewDirection = normalize(input.worldPos - CameraPosition);
+    float3 lightReflection = normalize( -reflect(lightDirection, (perturbedNormal + perturbedSpecular)) );
+    float3 ambientReflection = normalize( -reflect(AmbientDirection, (perturbedNormal + (perturbedSpecular/ambientStrengh))) );
+    
+    //Reflection
+    float lightSpecular = pow(max(dot(lightReflection, viewDirection), 0.0), powStrength);
+    float ambientSpecular = pow(max(dot(ambientReflection, viewDirection), 0.0), powStrength);
+    float reflection = lightSpecular + ambientSpecular;
+
+    return float4( (( min(light + (ambient/ambientStrengh) + reflection * 4, 1.0)) * texColor.rgb ),1);
+>>>>>>> Stashed changes
 }
 
 technique

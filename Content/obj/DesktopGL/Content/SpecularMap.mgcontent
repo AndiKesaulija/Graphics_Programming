@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/SpecularMap.png</SourceFile>
+  <SourceTime>2021-02-18T12:16:21.7578154+01:00</SourceTime>
+  <DestFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/bin/DesktopGL/Content/SpecularMap.xnb</DestFile>
+  <DestTime>2021-02-18T12:16:22.4327458+01:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2020-08-10T16:17:54+02:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>MakeSquare</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

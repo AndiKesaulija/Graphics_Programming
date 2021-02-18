@@ -116,8 +116,15 @@ namespace Graphics_programming
 		//private BasicEffect effect;
 		
 		private Effect myEffect;
+<<<<<<< Updated upstream
 		private Texture2D boxTexture, boxNormal;
 		Vector3 LightPosition = Vector3.Right * 2 + Vector3.Up * 2 + Vector3.Backward * 2;
+=======
+		private Texture2D boxTexture, boxNormal, boxSpecular;
+		Vector3 LightPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
+		Vector3 AmbientPosition = Vector3.Right * 2 + Vector3.Up * 1 + Vector3.Backward * 2;
+
+>>>>>>> Stashed changes
 
 		public override void LoadContent(ContentManager Content, GraphicsDeviceManager graphics, SpriteBatch spriteBatch)
 		{
@@ -126,7 +133,11 @@ namespace Graphics_programming
 			myEffect = Content.Load<Effect>("Lesson2");//load .fx File
 			boxTexture = Content.Load<Texture2D>("BoxImg");
 			boxNormal = Content.Load<Texture2D>("NormalMap");
+<<<<<<< Updated upstream
 
+=======
+			boxSpecular = Content.Load<Texture2D>("SpecularMap");
+>>>>>>> Stashed changes
 		}
 
 		public override void Draw(GameTime gameTime, GraphicsDeviceManager graphics, SpriteBatch spriteBatch)
@@ -135,8 +146,11 @@ namespace Graphics_programming
 
 			float time = (float)gameTime.TotalGameTime.TotalSeconds;
 			LightPosition = new Vector3(MathF.Cos(time), 1, MathF.Sin(time)) * 2;
-
 			Vector3 cameraPos = -Vector3.Forward * 10 + Vector3.Up * 5 + Vector3.Right * 5;
+
+			//LightPosition = -cameraPos;
+			//AmbientPosition = cameraPos;
+			//AmbientPosition = Vector3.Forward * 10 + Vector3.Up * 5 + -Vector3.Right * 5;//OppositeSide
 
 			Matrix World = Matrix.CreateWorld(Vector3.Zero, Vector3.Forward, Vector3.Up);
 			Matrix View = Matrix.CreateLookAt(cameraPos, Vector3.Zero, Vector3.Up);
@@ -150,8 +164,14 @@ namespace Graphics_programming
 			myEffect.Parameters["MainTex"].SetValue(boxTexture);
 			myEffect.Parameters["NormalTex"].SetValue(boxNormal);
 
+<<<<<<< Updated upstream
 
 			myEffect.Parameters["LightPosition"].SetValue(LightPosition);
+=======
+			myEffect.Parameters["LightPosition"].SetValue(LightPosition);
+			myEffect.Parameters["AmbientPosition"].SetValue(AmbientPosition);
+			myEffect.Parameters["CameraPosition"].SetValue(cameraPos);
+>>>>>>> Stashed changes
 
 			myEffect.CurrentTechnique.Passes[0].Apply();//effect.CurrentTechnique.Passes[0].Apply();
 

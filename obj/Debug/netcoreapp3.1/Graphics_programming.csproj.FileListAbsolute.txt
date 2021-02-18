@@ -47,3 +47,15 @@ D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\De
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\Lesson2.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\BoxImg.xnb
 D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\NormalMap.xnb
+<<<<<<< Updated upstream
+=======
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\SpecularMap.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\SpecularMap2.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\Lesson3.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\clouds.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\cube.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\day.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\night.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\bin\Debug\netcoreapp3.1\Content\uv_sphere.xnb
+D:\Projects\GraphicsProgramming\Graphics_programming\Graphics_programming\obj\Debug\netcoreapp3.1\Graphics_programming.csprojAssemblyReference.cache
+>>>>>>> Stashed changes

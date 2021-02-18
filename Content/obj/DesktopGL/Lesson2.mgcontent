@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/Lesson2.fx</SourceFile>
+<<<<<<< Updated upstream
   <SourceTime>2021-02-13T16:43:16.2803705+01:00</SourceTime>
   <DestFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/bin/DesktopGL/Lesson2.xnb</DestFile>
   <DestTime>2021-02-13T16:53:05.6937527+01:00</DestTime>
+=======
+  <SourceTime>2021-02-18T15:21:58.1338056+01:00</SourceTime>
+  <DestFile>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/bin/DesktopGL/Lesson2.xnb</DestFile>
+  <DestTime>2021-02-18T15:26:50.1711777+01:00</DestTime>
+>>>>>>> Stashed changes
   <Importer>EffectImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

@@ -5,12 +5,34 @@
   <Config />
   <SourceFiles>
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/BoxImg.png</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/clouds.jpg</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/cube.obj</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/day.jpg</File>
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/Lesson2.fx</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/Lesson3.fx</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/night.jpg</File>
     <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/NormalMap.png</File>
+<<<<<<< Updated upstream
+=======
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/SpecularMap.png</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/SpecularMap2.png</File>
+    <File>D:/Projects/GraphicsProgramming/Graphics_programming/Graphics_programming/Content/uv_sphere.fbx</File>
+>>>>>>> Stashed changes
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+<<<<<<< Updated upstream
+=======
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+>>>>>>> Stashed changes
   </DestFiles>
 </SourceFileCollection>
